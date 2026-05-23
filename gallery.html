@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — Legazpi City</title>
+  <meta name="description" content="Photo gallery of Legazpi City — location shots, food, culture, and BTS scenes from the project team.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Legazpi<span>.</span></a>
+    <ul class="nav-links" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="explore.html">Explore</a></li>
+      <li><a href="culture.html">Culture</a></li>
+      <li><a href="food.html">Food</a></li>
+      <li><a href="gallery.html" class="cta">Gallery</a></li>
+    </ul>
+    <button class="nav-burger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="nav-mobile">
+  <a href="index.html">Home</a>
+  <a href="explore.html">Explore</a>
+  <a href="culture.html">Culture</a>
+  <a href="food.html">Food</a>
+  <a href="gallery.html">Gallery</a>
+</div>
+
+<main class="page">
+
+  <header class="page-hero">
+    <div class="page-hero-inner">
+      <div class="page-hero-tag">Snapshots & Behind the Scenes</div>
+      <h1 class="page-hero-title">Gallery</h1>
+      <p class="page-hero-sub">Our collection of location shots, food snaps, cultural frames, and behind-the-scenes moments from the team on the ground in Legazpi.</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="section-inner">
+
+      <!-- About the gallery -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-bottom:3rem;align-items:start" class="reveal">
+        <div>
+          <div class="section-tag">About this gallery</div>
+          <h2 class="section-title" style="font-size:clamp(1.6rem,3vw,2.25rem)">Our snaps &<br>BTS scenes</h2>
+          <p style="font-size:0.93rem;color:var(--muted);line-height:1.72">
+            This gallery collects everything from the field — location shots from Kawit and Lapu-Lapu,
+           culture documentation, and the
+            behind-the-scenes moments that show how the project came together.
+          </p>
+        </div>
+        <div class="team-card-strip" aria-label="The Team">
+          <div class="team-card-overlay-label">
+            <span class="team-card-tag">The Team</span>
+            <span class="team-card-title">The Three Musketeers & d'Artagnan</span>
+          </div>
+          <div class="team-card-panels">
+
+            <div class="tcp" style="--tcp-color:#c93b1a">
+              <img src="images/team/fred.jpg" alt="Frederick B. Baldano" onerror="this.style.display='none'">
+              <!-- <div class="tcp-gradient"></div>-->
+              <div class="tcp-info">
+                <div class="tcp-name">Frederick<br>Baldano</div>
+                <div class="tcp-role">Porthos</div>
+              </div>
+            </div>
+
+            <div class="tcp" style="--tcp-color:#2471a3">
+              <img src="images/team/allen.jpg" alt="Rein Allen M. Capitulo" onerror="this.style.display='none'">
+              <!-- <div class="tcp-gradient"></div>-->
+              <div class="tcp-info">
+                <div class="tcp-name">Rein Allen<br>Capitulo</div>
+                <div class="tcp-role">Aramis</div>
+              </div>
+            </div>
+
+            <div class="tcp" style="--tcp-color:#1e8449">
+              <img src="images/team/geoff.jpg" alt="Geoff Larenz M. Peñafiel" onerror="this.style.display='none'">
+              <!-- <div class="tcp-gradient"></div>-->
+              <div class="tcp-info">
+                <div class="tcp-name">Geoff Larenz<br>Peñafiel</div>
+                <div class="tcp-role">Athos</div>
+              </div>
+            </div>
+
+            <div class="tcp" style="--tcp-color:#7d3c98">
+              <img src="images/team/floid.jpg" alt="John Floid A. Guitones" onerror="this.style.display='none'">
+              <!-- <div class="tcp-gradient"></div>-->
+              <div class="tcp-info">
+                <br class="tcp-name">John Floid<br>Guitones</div>
+                <div class="tcp-role">d'Artagnan</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Notice 
+      <div style="background:var(--cream);border-radius:var(--radius);padding:0.9rem 1.1rem;margin-bottom:2rem;font-size:0.84rem;color:var(--muted);display:flex;align-items:flex-start;gap:10px" class="reveal">
+        <span style="font-size:1.1rem;flex-shrink:0">📷</span>
+        <span>Placeholders shown below. Add your actual photos to <code style="background:rgba(0,0,0,0.07);padding:1px 6px;border-radius:4px">images/gallery/</code> and update the <code style="background:rgba(0,0,0,0.07);padding:1px 6px;border-radius:4px">gallery</code> array in <code style="background:rgba(0,0,0,0.07);padding:1px 6px;border-radius:4px">data/spots.json</code> — no code needed.</span>
+      </div>
+
+      -->
+      <!-- Filter -->
+      <div class="filter-bar reveal" role="group" aria-label="Filter gallery">
+        <button class="filter-btn active" data-cat="all">All</button>
+        <button class="filter-btn" data-cat="nature">Nature</button>
+        <button class="filter-btn" data-cat="heritage">Heritage</button>
+        <button class="filter-btn" data-cat="culture">Culture</button>
+        <button class="filter-btn" data-cat="food">Food</button>
+        <button class="filter-btn" data-cat="leisure">Leisure</button>
+        <button class="filter-btn" data-cat="bts">BTS</button>
+      </div>
+
+      <!-- Grid -->
+      <div class="gallery-grid" id="gallery-grid" aria-live="polite"></div>
+
+    </div>
+  </section>
+
+  <!-- PROJECT INFO -->
+  <section style="background:var(--volcanic);color:var(--white)">
+    <div class="section-inner">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center" class="reveal">
+        <div>
+          <div class="section-tag" style="color:var(--gold)">About the project</div>
+          <h2 class="section-title" style="color:var(--white);font-size:clamp(1.8rem,3vw,2.6rem)">Who made<br>this site</h2>
+          <p style="font-size:0.93rem;color:rgba(255,255,255,0.55);line-height:1.72;margin-bottom:1rem">
+            This website is a student-led promotion project for Legazpi City, Albay — built
+            to showcase the city's spots, culture, and cuisine to a wider audience online.
+          </p>
+          <p style="font-size:0.93rem;color:rgba(255,255,255,0.55);line-height:1.72">
+            V1 is a static site - no backend, no database, just HTML, CSS, and JavaScript.
+            Photos are gathered on the ground by the team across Brgy 16 Kawit, Brgy 25
+            Lapu-Lapu Street, and the boulevard etc.. Everything you see here is local, firsthand,
+            and made with genuine pride for the city.
+          </p>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:0.75rem">
+          <div style="border:1px solid rgba(255,255,255,0.1);border-radius:var(--radius);padding:1.1rem 1.25rem">
+            <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);margin-bottom:0.4rem">Tech</div>
+            <div style="font-size:0.88rem;color:rgba(255,255,255,0.65)">HTML · CSS · Vanilla JavaScript · JSON</div>
+          </div>
+          <div style="border:1px solid rgba(255,255,255,0.1);border-radius:var(--radius);padding:1.1rem 1.25rem">
+            <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);margin-bottom:0.4rem">Locations covered</div>
+            <div style="font-size:0.88rem;color:rgba(255,255,255,0.65)">Brgy 16 Kawit · Brgy 25 Lapu-Lapu · Brgy.44 Pawa · Boulevard · SM area · Embarcadero · Sawangan</div>
+          </div>
+          <div style="border:1px solid rgba(255,255,255,0.1);border-radius:var(--radius);padding:1.1rem 1.25rem">
+            <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);margin-bottom:0.4rem">City</div>
+            <div style="font-size:0.88rem;color:rgba(255,255,255,0.65)">Legazpi City, Albay, Philippines</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <div class="lightbox-inner">
+    <button class="lightbox-close" aria-label="Close">×</button>
+    <img src="" alt="">
+    <div class="lightbox-caption"></div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">Legazpi<span>.</span></div>
+      <div class="footer-tagline">Heart of Bicol - Legazpi City, Albay, Philippines</div>
+    </div>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="explore.html">Explore</a>
+      <a href="culture.html">Culture</a>
+      <a href="food.html">Food</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Legazpi City Promotion Project</span>
+    <span>Basta Bikolano, Oragon !</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

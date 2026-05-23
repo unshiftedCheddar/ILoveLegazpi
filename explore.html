@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore — Legazpi City</title>
+  <meta name="description" content="Explore Legazpi City's best spots — Centro Albay, Kawit waterfront, Lapu-Lapu eskinita, Sawangan and Embarcadero.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Legazpi<span>.</span></a>
+    <ul class="nav-links" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="explore.html">Explore</a></li>
+      <li><a href="culture.html">Culture</a></li>
+      <li><a href="food.html">Food</a></li>
+      <li><a href="gallery.html" class="cta">Gallery</a></li>
+    </ul>
+    <button class="nav-burger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="nav-mobile">
+  <a href="index.html">Home</a>
+  <a href="explore.html">Explore</a>
+  <a href="culture.html">Culture</a>
+  <a href="food.html">Food</a>
+  <a href="gallery.html">Gallery</a>
+</div>
+
+<main class="page">
+<!-- style="background-image: linear-gradient(to bottom, rgba(10,8,6,0.5), rgba(10,8,6,0.75)), url('images/your-collage.jpg') -->
+  <header class="page-hero">
+    <div class="page-hero-inner">
+      <div class="page-hero-tag">Discover Legazpi</div>
+      <h1 class="page-hero-title">Explore</h1>
+      <p class="page-hero-sub">
+        Take a glimpse into Legazpi’s character, from everyday streets to open horizons. 
+        Choose a card to see the story unfold...</p>
+    </div>
+  </header>
+
+  <!-- CARD GRID -->
+  <section>
+    <div class="section-inner">
+      <div class="filter-bar reveal" role="group" aria-label="Filter by category">
+        <button class="filter-btn active" data-cat="all">All spots</button>
+        <button class="filter-btn" data-cat="heritage">Heritage</button>
+        <button class="filter-btn" data-cat="culture">Culture</button>
+        <button class="filter-btn" data-cat="nature">Nature</button>
+        <button class="filter-btn" data-cat="leisure">Leisure</button>
+      </div>
+      <div class="spots-grid" id="spots-grid" aria-live="polite">
+        <div style="color:var(--muted);font-size:0.88rem;grid-column:1/-1;padding:1.5rem 0">Loading spots…</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HIGHLIGHTS -->
+  <section style="background:var(--cream)">
+    <div class="section-inner">
+      <div class="reveal">
+        <div class="section-tag">What defines us</div>
+        <h2 class="section-title">Legazpi City<br>Highlights</h2>
+        <p class="section-lead" style="max-width:75%">
+          Four pillars that shape the identity of Legazpi - a city defined by natural wonder,
+          deep roots, rich flavors, and a spirit that keeps moving forward.
+        </p>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1.25rem;margin-top:2rem" class="reveal">
+
+        <!-- Mayon Volcano -->
+        <div class="hl-card">
+          <img src="images/mayon-cover.jpg" alt="Mayon Volcano" loading="lazy" onerror="this.style.display='none'">
+          <div class="hl-card-gradient"></div>
+          <!-- <div class="hl-card-icon">🌋</div> -->
+          <div class="hl-card-body">
+            <div class="hl-card-title">Mayon Volcano</div>
+            <div class="hl-card-desc">
+              The world's most perfect cone ever-present on the horizon,
+               visible from every corner of the city. 
+               Legazpi's most iconic landmark and a constant reminder of nature's scale.
+              </div>
+          </div>
+        </div>
+
+        <!-- Culture & Heritage -->
+        <div class="hl-card">
+          <img src="images/crafts/abaca-craft.jpg" alt="Culture & Heritage" loading="lazy" onerror="this.style.display='none'">
+          <div class="hl-card-gradient"></div>
+          <!--<div class="hl-card-icon">🏛️</div>-->
+          <div class="hl-card-body">
+            <div class="hl-card-title">Culture & Heritage</div>
+            <div class="hl-card-desc">
+              From the Ibalong Monument to the eskinitas of Brgy. 25, Legazpi's streets carry centuries of Bicolano history - 
+              lived-in, celebrated, and proudly passed down.
+            </div>
+          </div>
+        </div>
+
+        <!-- Food & Cuisine -->
+        <div class="hl-card">
+          <img src="images/foods/foods.jpg" alt="Food & Cuisine" loading="lazy" onerror="this.style.display='none'">
+          <div class="hl-card-gradient"></div>
+          <!--<div class="hl-card-icon">🌶️</div>-->
+          <div class="hl-card-body">
+            <div class="hl-card-title">Food & Cuisine</div>
+            <div class="hl-card-desc">
+              Bicol Express, laing, gulay na natong, pili sweets - 
+              the food here is bold, coconut-rich, and unmistakably Bicolano. 
+              Every meal tells you exactly where you are.
+            </div>
+          </div>
+        </div>
+
+        <!-- Resilience & Modern Progress -->
+        <div class="hl-card">
+          <img src="images/progress.jpg" alt="Resilience & Modern Progress" loading="lazy" onerror="this.style.display='none'">
+          <div class="hl-card-gradient"></div>
+          <!--<div class="hl-card-icon">🏙️</div>-->
+          <div class="hl-card-body">
+            <div class="hl-card-title">Resilience & Modern Progress</div>
+            <div class="hl-card-desc">
+              Shaped by typhoons and volcanic activity, Legazpi keeps rebuilding and moving forward - 
+              a waterfront boulevard, a growing city center, and a people who don't stop.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Spot Modal Overlay -->
+<div id="spot-modal-overlay" class="spot-modal-overlay" role="dialog" aria-modal="true" aria-label="Spot details">
+  <div class="spot-modal"></div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">Legazpi<span>.</span></div>
+      <div class="footer-tagline">Heart of Bicol - Legazpi City, Albay, Philippines</div>
+    </div>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="explore.html">Explore</a>
+      <a href="culture.html">Culture</a>
+      <a href="food.html">Food</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Legazpi City Promotion Project</span>
+    <span>Basta Bikolano, Oragon !</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
