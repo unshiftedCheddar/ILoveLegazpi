@@ -1,0 +1,359 @@
+{
+  "spots": [
+    {
+      "id": "mayon-snapshots",
+      "name": "Mayon Volcano",
+      "barangay": "Albay",
+      "category": "nature",
+      "short": "The world's most perfect volcanic cone — visible from the boulevard, the riles, the SM road, everywhere.",
+      "description": "You don't go to Mayon — Mayon comes to you. The volcano is present in almost every shot across the city: rising at the end of East Washington Drive, looming over the boulevard at dusk, glimpsed down every open road. Capture it in as many natural contexts as possible.",
+      "tags": [
+        "volcano",
+        "iconic",
+        "nature",
+        "photography"
+      ],
+      "photos": [
+        "images/spots/mayon/01.jpg",
+        "images/spots/mayon/02.jpg",
+        "images/spots/mayon/03.jpg"
+      ],
+      "image": "images/spots/mayon/cover.jpg"
+    },
+    {
+      "id": "centro-albay",
+      "name": "Centrong Albay",
+      "barangay": "Old Albay District",
+      "category": "culture",
+      "short": "The civic heart of Legazpi — Peñaranda Park, the old city hall, and the streets that tie it all together.",
+      "description": "Centro Albay is where the city's public life has always centered. Peñaranda Park anchors the area — surrounded by the old city hall, heritage buildings, and the everyday rhythm of Legazpi's downtown. A place worth slowing down in.",
+      "tags": [
+        "park",
+        "heritage",
+        "city center",
+        "civic"
+      ],
+      "photos": [
+        "images/spots/centro/01.jpg",
+        "images/spots/centro/02.jpg",
+        "images/spots/centro/03.jpg"
+      ],
+      "image": "images/spots/centro/cover.jpg"
+    },
+    {
+      "id": "pasalubong-artisans",
+      "name": "Artisans & Pasalubong Stores",
+      "barangay": "SM Legazpi & City Center",
+      "category": "culture",
+      "short": "Pili candy, abaca crafts, local art — Bicol's best take-homes, including Initial Arts at SM.",
+      "description": "Legazpi's pasalubong culture is worth documenting — the local stores lined with pili nut sweets, abaca weavings, and regional handicrafts. Initial Arts inside SM Legazpi is a standout. A quick walk-through and a few product shots capture the full picture.",
+      "tags": [
+        "pasalubong",
+        "crafts",
+        "pili",
+        "shopping"
+      ],
+      "photos": [
+        "images/spots/pasalubong/01.jpg",
+        "images/spots/pasalubong/02.jpg",
+        "images/crafts/abaca-colored.jpg"
+      ],
+      "image": "images/spots/pasalubong/cover.jpg"
+    },
+    {
+      "id": "lapu-lapu",
+      "name": "Lapu-Lapu Street",
+      "barangay": "Brgy 25",
+      "assigned": "Frederick B. Baldano & Rein Allen M. Capitulo",
+      "category": "culture",
+      "short": "The real Legazpi — narrow eskinitas, the Ibalong Monument, and the Battle of Legazpi Monument.",
+      "description": "Brgy 25 Lapu-Lapu Street is everyday Legazpi at full volume. Narrow eskinitas cutting between buildings, the Ibalong Monument and Battle of Legazpi Monument anchoring the area with history that most visitors never find.",
+      "tags": [
+        "eskinita",
+        "street life",
+        "monuments",
+        "culture"
+      ],
+      "photos": [
+        "images/spots/lapu-lapu/01.jpg",
+        "images/spots/lapu-lapu/02.jpg",
+        "images/spots/lapu-lapu/03.jpg"
+      ],
+      "image": "images/spots/lapu-lapu/cover.jpg"
+    },
+    {
+      "id": "kawit-eastwash",
+      "name": "Kawit, East Washington Drive",
+      "barangay": "Brgy 16",
+      "assigned": "Geoff Larenz M. Peñafiel",
+      "category": "heritage",
+      "short": "Where the old railway line meets the bay - Legazpi's most atmospheric bayside stretch.",
+      "description": "East Washington Drive runs along the Legazpi bay front through Brgy 16 Kawit, tracing the old PNR Bicol railway corridor. The riles are quiet now, but the energy of the place hasn't left — fishermen, open water, Mayon at the end of the gulf. Best at sunrise or sundown.",
+      "tags": [
+        "railway",
+        "heritage"
+      ],
+      "photos": [
+        "images/spots/kawit/01.jpg",
+        "images/spots/kawit/02.jpg",
+        "images/spots/kawit/03.jpg"
+      ],
+      "image": "images/spots/kawit/cover.jpg"
+    },
+    {
+      "id": "pawa",
+      "name": "Pawa",
+      "barangay": "Brgy 44",
+      "assigned": "John Floid A. Guitones",
+      "category": "nature",
+      "short": "A quiet barangay on the slopes - rice fields, open views of Mayon, and a pace that feels genuinely unhurried.",
+      "description": "Pawa is one of those barangays that rewards the detour. Situated away from the city bustle, it offers open views toward Mayon, terraced landscapes, and a daily rhythm that contrasts sharply with downtown Legazpi. A good stop for anyone wanting the quieter side of the city.",
+      "tags": [
+        "barangay",
+        "scenic",
+        "mayon view",
+        "countryside"
+      ],
+      "photos": [
+        "images/spots/pawa/01.jpg",
+        "images/spots/pawa/02.jpg",
+        "images/spots/pawa/03.jpg"
+      ],
+      "image": "images/spots/pawa/cover.jpg"
+    },
+    {
+      "id": "sawangan-emba",
+      "name": "Embarcadero Boulevard</br>& Sawangan Park",
+      "barangay": "City Center - Baywalk",
+      "category": "leisure",
+      "short": "The boulevard at golden hour - Embarcadero, the baywalk, and Mayon catching the last light.",
+      "description": "Something about the park and its one of the city's best place to spend along with open bay views, the volcano catching the last light, vendors along the promenade. A perfect end to a day anywhere in the city.",
+      "tags": [
+        "boulevard",
+        "waterfront",
+        "leisure"
+      ],
+      "photos": [
+        "images/spots/boulevard/01.jpg",
+        "images/spots/boulevard/02.jpg",
+        "images/spots/boulevard/03.jpg"
+      ],
+      "image": "images/spots/boulevard/cover.jpg"
+    },
+    {
+      "id": "obelisk",
+      "name": "Obelisk",
+      "barangay": "Baywalk",
+      "category": "leisure",
+      "short": "The boulevard at golden hour — Embarcadero, the baywalk, and Mayon catching the last light.",
+      "description": "From Embarcadero de Legazpi along the boulevard to Sawangan is one of the city's best evening walks. Open bay views, the volcano catching the last light, vendors along the promenade. A perfect end to a day anywhere in the city.",
+      "tags": [
+        "boulevard",
+        "waterfront",
+        "leisure"
+      ],
+      "photos": [
+        "images/spots/obelisk/01.jpg",
+        "images/spots/obelisk/02.jpg",
+        "images/spots/obelisk/03.jpg"
+      ],
+      "image": "images/spots/obelisk/cover.jpg"
+    },
+    {
+      "id": "inon-hill",
+      "name": "Liñon Hill",
+      "barangay": "City Center",
+      "category": "leisure",
+      "short": "Jogging places chuhcu",
+      "description": " something located somewhere",
+      "tags": [
+        "boulevard",
+        "waterfront",
+        "leisure"
+      ],
+      "photos": [
+        "images/spots/linon/01.jpg",
+        "images/spots/linon/02.jpg",
+        "images/spots/linon/03.jpg"
+      ],
+      "image": "images/spots/linon/cover.jpg"
+    }
+  ],
+  "food": [
+    {
+      "id": "bicol-express",
+      "name": "Bicol Express",
+      "type": "main dish",
+      "description": "Pork slow-cooked in coconut milk with an avalanche of labuyo chili. Fiery, creamy, deeply savory. The dish that put Bicol on the map.",
+      "where": "Carinderias along Lapu-Lapu St, Brgy 25"
+    },
+    {
+      "id": "gulay-na-natong",
+      "name": "Gulay na Natong",
+      "type": "main dish",
+      "description": "Gabi (taro) leaves and stalks cooked down in rich coconut cream with bagoong. Humble, earthy, and one of the most distinctly Bicolano dishes you'll find.",
+      "where": "Gulay Corner, Legazpi City"
+    },
+    {
+      "id": "laing",
+      "name": "Laing",
+      "type": "main dish",
+      "description": "Dried taro leaves simmered in coconut cream with shrimp paste and chili until thick and deeply flavored. Deceptively simple, impossibly good.",
+      "where": "Legazpi public market & local restaurants"
+    },
+    {
+      "id": "pili-nuts",
+      "name": "Pili Nuts & Sweets",
+      "type": "delicacy",
+      "description": "Bicol's prized nut — candied, salted, in pastillas, or pressed into oil. Every pasalubong store in the city carries them. Don't leave without some.",
+      "where": "Pasalubong stores, SM Legazpi, Initial Arts"
+    },
+    {
+      "id": "hepa-streets",
+      "name": "Hepa Streets Food Park",
+      "type": "food park",
+      "description": "A lively stretch of food stalls and local vendors operating side by side. Good for an evening out — affordable, casual, and very Legazpi.",
+      "where": "Hepa Streets, Legazpi City"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "g1",
+      "caption": "Paaarkkkk",
+      "category": "heritage",
+      "image": "images/gallery/legaz02.jpg"
+    },
+    {
+      "id": "g2",
+      "caption": "Waiting for the Train",
+      "category": "heritage",
+      "image": "images/gallery/train01.jpg"
+    },
+    {
+      "id": "g3",
+      "caption": "Waiting for the Train",
+      "category": "heritage",
+      "image": "images/gallery/train02.jpg"
+    },
+    {
+      "id": "g4",
+      "caption": "Heading home by the tracks",
+      "category": "heritage",
+      "image": "images/gallery/rail-walk.jpg"
+    },
+    {
+      "id": "g5",
+      "caption": "By the Baywalk with friends",
+      "category": "leisure",
+      "image": "images/gallery/peeps.jpg"
+    },
+    {
+      "id": "g6",
+      "caption": "Euanitos",
+      "category": "food",
+      "image": "images/gallery/legaz01.jpg"
+    },
+    {
+      "id": "g7",
+      "caption": "Arriving, SM Legazpi",
+      "category": "bts",
+      "image": "images/gallery/esem.jpg"
+    },
+    {
+      "id": "g8",
+      "caption": "@ SM Legazpi",
+      "category": "leisure",
+      "image": "images/gallery/sm04.jpg"
+    },
+    {
+      "id": "g9",
+      "caption": "@ SM Legazpi",
+      "category": "leisure",
+      "image": "images/gallery/sm02.jpg"
+    },
+    {
+      "id": "g10",
+      "caption": "@ SM Legazpi",
+      "category": "leisure",
+      "image": "images/gallery/sm01.jpg"
+    },
+    {
+      "id": "g11",
+      "caption": "Arriving, SM Legazpi",
+      "category": "nature",
+      "image": "images/gallery/esem1.jpg"
+    },
+    {
+      "id": "g12",
+      "caption": "Arriving, SM Legazpi",
+      "category": "culture", 
+      "image": "images/spots/pasalubong/cover.jpg"
+    },
+    {
+      "id": "g13",
+      "caption": "Playing at thte Swing",
+      "category": "leisure", 
+      "image": "images/gallery/park01.jpg"
+    },
+    {
+      "id": "g14",
+      "caption": "Seasawww",
+      "category": "leisure", 
+      "image": "images/gallery/park03.jpg"
+    },
+    {
+      "id": "g15",
+      "caption": "Merry-Go",
+      "category": "leisure", 
+      "image": "images/gallery/merry.jpg"
+    },
+    {
+      "id": "g16",
+      "caption": "Team at the park",
+      "category": "bts", 
+      "image": "images/gallery/teampark.jpg"
+    },
+    {
+      "id": "g17",
+      "caption": "Sundown at SM Legazpi",
+      "category": "bts", 
+      "image": "images/gallery/sundown.jpg"
+    },
+    {
+      "id": "g18",
+      "caption": "Along the Seaside",
+      "category": "nature", 
+      "image": "images/gallery/sundownbay.jpg"
+    },
+    {
+      "id": "g19",
+      "caption": "Peñaranda Statue",
+      "category": "heritage", 
+      "image": "images/gallery/park07.jpg"
+    },
+    {
+      "id": "g20",
+      "caption": "At Obelisk",
+      "category": "leisure", 
+      "image": "images/gallery/obelisk.jpg"
+    },
+    {
+      "id": "g21",
+      "caption": "Walking by the tracks @ East Washington Drive",
+      "category": "heritage", 
+      "image": "images/gallery/Kawit.jpg"
+    },
+    {
+      "id": "g22",
+      "caption": "Some Swimming Resort @ Pawa",
+      "category": "leisure", 
+      "image": "images/gallery/pawa01.jpg"
+    },
+    {
+      "id": "g23",
+      "caption": "Roadside",
+      "category": "nature", 
+      "image": "images/gallery/sundownroad.jpg"
+    }
+  ]
+}
