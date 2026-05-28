@@ -522,7 +522,7 @@ footer { background: var(--volcanic); color: var(--white); padding: 3rem 2rem; }
 }
 .photo-stack-item {
   position: absolute;
-  width: 240px; height: 300px;
+  width: 320px; height: 480px;
   border-radius: 4px;
   overflow: hidden;
   background: var(--cream);
