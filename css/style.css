@@ -117,7 +117,7 @@ ul { list-style: none; }
   position: absolute; inset: 0;
   background:
     linear-gradient(to bottom, rgba(10,8,6,0.08) 0%, rgba(10,8,6,0.7) 100%),
-    url('../images/peek.png')
+    url('../images/mayon-cover.jpg')
     center/cover no-repeat;
   transform: scale(1.04);
   animation: heroZoom 14s ease-out forwards;
