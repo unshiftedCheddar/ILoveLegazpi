@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Culture & Heritage — Legazpi City</title>
-  <meta name="description" content="Culture and heritage of Legazpi City — Magayon Festival, Ibalong Festival, railway history, Bicolano language, and more.">
+  <title>Explore — Legazpi City</title>
+  <meta name="description" content="Explore Legazpi City's best spots — Centro Albay, Kawit waterfront, Lapu-Lapu eskinita, Sawangan and Embarcadero.">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -33,210 +33,115 @@
 </div>
 
 <main class="page">
-
+<!-- style="background-image: linear-gradient(to bottom, rgba(10,8,6,0.5), rgba(10,8,6,0.75)), url('images/your-collage.jpg') -->
   <header class="page-hero">
     <div class="page-hero-inner">
-      <div class="page-hero-tag">Roots & Identity</div>
-      <h1 class="page-hero-title">Culture &<br>Heritage</h1>
+      <div class="page-hero-tag">Discover Legazpi</div>
+      <h1 class="page-hero-title">Explore</h1>
       <p class="page-hero-sub">
-        Centuries of Bicolano identity - language, faith, volcanic memory, festivals, 
-        and the resilience of a people who live beside an active volcano.
-      </p>
+        Take a glimpse into Legazpi’s character, from everyday streets to open horizons. 
+        Choose a card to see the story unfold...</p>
     </div>
   </header>
 
-  <!-- INTRO -->
+  <!-- CARD GRID -->
   <section>
     <div class="section-inner">
-      <div class="reveal">
-        <div class="section-tag">Who we are</div>
-        <h2 class="section-title">The Bicolano spirit</h2>
-        <p class="section-lead">Warm, resilient, and rooted -
-           Legazpeños have lived alongside Mayon for centuries and built a culture that reflects exactly that.
-          </p>
+      <div class="filter-bar reveal" role="group" aria-label="Filter by category">
+        <button class="filter-btn active" data-cat="all">All spots</button>
+        <button class="filter-btn" data-cat="heritage">Heritage</button>
+        <button class="filter-btn" data-cat="culture">Culture</button>
+        <button class="filter-btn" data-cat="nature">Nature</button>
+        <button class="filter-btn" data-cat="leisure">Leisure</button>
+      </div>
+      <div class="spots-grid" id="spots-grid" aria-live="polite">
+        <div style="color:var(--muted);font-size:0.88rem;grid-column:1/-1;padding:1.5rem 0">Loading spots…</div>
       </div>
     </div>
   </section>
 
-  <!-- EDITORIAL ROWS -->
-  <div class="culture-editorial">
-
-    <!-- 1 — image left, text right (odd) -->
-    <div class="culture-row reveal">
-      <div class="culture-row-img">
-        <img src="images/festival/magayon01.jpg" alt="Magayon Festival"
-          onerror="this.parentElement.innerHTML='<div class=\'culture-row-placeholder\' style=\'background:rgba(201,59,26,0.07)\'><span>🌺</span><span>Magayon Festival</span></div>'">
-      </div>
-      <div class="culture-row-body">
-        <div class="culture-row-accent" style="background:var(--lava)"></div>
-        <div class="culture-row-icon">🌺</div>
-        <h2 class="culture-row-title">Magayon Festival</h2>
-        <p>Held every May in Legazpi City, the Magayon Festival celebrates Albay's premier beauty. 
-          Named after the legendary Bicolana princess Daragang Magayon as it features street dancing, 
-          trade fairs, and cultural shows that draw visitors from across the country. 
-          The festival showcases the best of Bicolano art, cuisine, and pageantry.
-        </p>
-      </div>
-    </div>
-
-    <!-- 2 — text left, image right (even) -->
-    <div class="culture-row reveal">
-      <div class="culture-row-img">
-        <img src="images/festival/ibalong01.jpg" alt="Ibalong Festival"
-          onerror="this.parentElement.innerHTML='<div class=\'culture-row-placeholder\' style=\'background:rgba(212,146,10,0.07)\'><span>🎭</span><span>Ibalong Festival</span></div>'">
-      </div>
-      <div class="culture-row-body">
-        <div class="culture-row-accent" style="background:var(--gold)"></div>
-        <div class="culture-row-icon">🎭</div>
-        <h2 class="culture-row-title">Ibalong Festival</h2>
-        <p>The Ibalong Festival brings Bicol's ancient epic poem to life in the streets of Legazpi. 
-          Vivid costumes and choreographed dances depicting the legendary heroes Baltog, Handiong, and Bantong. 
-          The Ibalong Monument in Brgy 25 stands as a permanent tribute to this epic, 
-          right in the heart of the city's most lived-in barangay.
-        </p>
-      </div>
-    </div>
-
-    <!-- 3 — image left, text right (odd) -->
-    <div class="culture-row reveal">
-      <div class="culture-row-img">
-        <img src="images/gallery/rail-walk.jpg" alt="Railway heritage East Washington Drive"
-          onerror="this.parentElement.innerHTML='<div class=\'culture-row-placeholder\' style=\'background:rgba(14,140,114,0.07)\'><span>🚂</span><span>Railway Heritage</span></div>'">
-      </div>
-      <div class="culture-row-body">
-        <div class="culture-row-accent" style="background:var(--teal)"></div>
-        <div class="culture-row-icon">🚂</div>
-        <h2 class="culture-row-title">Railway Heritage</h2>
-        <p> The PNR Bicol line once ran from Manila to Legazpi, 
-          cutting through Brgy 16 Kawit along East Washington Drive. 
-          For decades it was the commercial artery of Bicol - passengers, cargo, connection. 
-          The riles are quiet now, but the corridor still carries that memory. 
-          Walking it is like reading a chapter of the city's history in iron and asphalt.
-        </p>
-      </div>
-    </div>
-
-    <!-- 4 — text left, image right (even) -->
-    <div class="culture-row reveal">
-      <div class="culture-row-img">
-        <img src="images/gallery/peeps.jpg" alt="Bicolano language and people"
-          onerror="this.parentElement.innerHTML='<div class=\'culture-row-placeholder\' style=\'background:rgba(45,125,210,0.07)\'><span>🗣️</span><span>Bicolano Language</span></div>'">
-      </div>
-      <div class="culture-row-body">
-        <div class="culture-row-accent" style="background:var(--sky)"></div>
-        <div class="culture-row-icon">🗣️</div>
-        <h2 class="culture-row-title">Bicolano Language</h2>
-        <p>Central Bikol is the heart language of Legazpi. Quick, expressive,
-           and warm in a way that mirrors the people who speak it. 
-          Distinct from Tagalog and Visayan, it carries its own music.
-           "Marhay na aldaw!" (Good day!) is usually your first welcome to the city, and it's delivered like it means it.
-          </p>
-      </div>
-    </div>
-
-    <!-- 5 — image left, text right (odd) -->
-    <div class="culture-row reveal">
-      <div class="culture-row-img">
-        <img src="images/battle.jpg" alt="Battle of Legazpi Monument"
-          onerror="this.parentElement.innerHTML='<div class=\'culture-row-placeholder\' style=\'background:rgba(201,59,26,0.07)\'><span>⛪</span><span>Faith & Monuments</span></div>'">
-      </div>
-      <div class="culture-row-body">
-        <div class="culture-row-accent" style="background:var(--lava)"></div>
-        <div class="culture-row-icon">⛪</div>
-        <h2 class="culture-row-title">Faith & Monuments</h2>
-        <p>The Battle of Legazpi Monument in Brgy 25 
-          commemorates the city's historical significance as a strategic point during the Spanish colonial era. 
-          Alongside the religious heritage represented by the city's churches and the Cagsawa Ruins, 
-          these monuments form a layer of civic and spiritual memory that runs through everyday Legazpi life.
-        </p>
-      </div>
-    </div>
-
-    <!-- 6 — text left, image right (even) -->
-    <div class="culture-row reveal">
-      <div class="culture-row-img">
-        <img src="images/mayon-cover.jpg" alt="Living beside Mayon Volcano"
-          onerror="this.parentElement.innerHTML='<div class=\'culture-row-placeholder\' style=\'background:rgba(212,146,10,0.07)\'><span>🌋</span><span>Living beside Mayon</span></div>'">
-      </div>
-      <div class="culture-row-body">
-        <div class="culture-row-accent" style="background:var(--gold)"></div>
-        <div class="culture-row-icon">🌋</div>
-        <h2 class="culture-row-title">Living beside Mayon</h2>
-        <p>Mayon is not just a landmark, it is a living presence that shapes the psychology,
-           calendar, and identity of every Legazpeño.
-            Eruptions have displaced communities and destroyed crops, and yet the people return,
-             rebuild, and find beauty in the mountain that has taken so much and given even more.
-              This is the defining fact of Bicolano life.
-            </p>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- ARTISANS -->
+  <!-- HIGHLIGHTS -->
   <section style="background:var(--cream)">
     <div class="section-inner">
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center" class="reveal">
-        <div>
-          <div class="section-tag">Crafts & pasalubong</div>
-          <h2 class="section-title" style="font-size:clamp(1.8rem,3vw,2.6rem)">Artisans &<br>handicrafts</h2>
-          <p style="font-size:0.93rem;color:var(--muted);line-height:1.72;margin-bottom:1.1rem">
-            Pili nut confections, abaca weaving, and buri palm crafts are deeply embedded in
-            Bicolano livelihood. Pasalubong stores across Legazpi carry generations of craft
-            work - the kind you can eat, wear, or display.
-          </p>
-        </div>
-        <div style="display:flex;flex-direction:column;gap:0.75rem">
-          <div style="background:var(--white);border-radius:var(--radius);padding:1.1rem 1.25rem;border:1px solid var(--border);display:flex;align-items:center;gap:1rem">
-            <span style="font-size:1.75rem">🥜</span>
-            <div><div style="font-weight:700;font-size:0.93rem;letter-spacing:-0.01em">Pili nut sweets</div><div style="font-size:0.82rem;color:var(--muted)">Candied, salted, in pastillas - the quintessential Bicol pasalubong</div></div>
-          </div>
-          <div style="background:var(--white);border-radius:var(--radius);padding:1.1rem 1.25rem;border:1px solid var(--border);display:flex;align-items:center;gap:1rem">
-            <span style="font-size:1.75rem">🧶</span>
-            <div><div style="font-weight:700;font-size:0.93rem;letter-spacing:-0.01em">Abaca weaving</div><div style="font-size:0.82rem;color:var(--muted)">Woven goods from Bicol's signature plant fiber - bags, mats, accessories</div></div>
-          </div>
-          <div style="background:var(--white);border-radius:var(--radius);padding:1.1rem 1.25rem;border:1px solid var(--border);display:flex;align-items:center;gap:1rem">
-            <span style="font-size:1.75rem">🎨</span>
-            <div><div style="font-weight:700;font-size:0.93rem;letter-spacing:-0.01em">Pasalubong & Artisan Shops</div><div style="font-size:0.82rem;color:var(--muted)">Curated local artisan goods in one accessible space</div></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- TIMELINE -->
-  <section style="background:var(--volcanic);color:var(--white)">
-    <div class="section-inner">
       <div class="reveal">
-        <div class="section-tag" style="color:var(--gold)">History</div>
-        <h2 class="section-title" style="color:var(--white)">Moments that<br>shaped Legazpi</h2>
+        <div class="section-tag">What defines us</div>
+        <h2 class="section-title">Legazpi City<br>Highlights</h2>
+        <p class="section-lead" style="max-width:75%">
+          Four pillars that shape the identity of Legazpi - a city defined by natural wonder,
+          deep roots, rich flavors, and a spirit that keeps moving forward.
+        </p>
       </div>
-      <div style="display:flex;flex-direction:column;gap:0" class="reveal">
-        <div style="display:grid;grid-template-columns:72px 1fr;gap:1.5rem;padding:1.4rem 0;border-bottom:1px solid rgba(255,255,255,0.08)">
-          <div style="font-size:1rem;font-weight:800;color:var(--lava);line-height:1.3;padding-top:2px">1616</div>
-          <div><div style="font-weight:600;margin-bottom:0.2rem;font-size:0.95rem">Founding of Cagsawa Church</div><div style="font-size:0.84rem;color:rgba(255,255,255,0.48)">Franciscan friars establish a church in Camalig — later destroyed by Mayon.</div></div>
+
+      <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1.25rem;margin-top:2rem" class="reveal">
+
+        <!-- Mayon Volcano -->
+        <div class="hl-card">
+          <img src="images/mayon-cover.jpg" alt="Mayon Volcano" loading="lazy" onerror="this.style.display='none'">
+          <div class="hl-card-gradient"></div>
+          <!-- <div class="hl-card-icon">🌋</div> -->
+          <div class="hl-card-body">
+            <div class="hl-card-title">Mayon Volcano</div>
+            <div class="hl-card-desc">
+              The world's most perfect cone ever-present on the horizon,
+               visible from every corner of the city. 
+               Legazpi's most iconic landmark and a constant reminder of nature's scale.
+              </div>
+          </div>
         </div>
-        <div style="display:grid;grid-template-columns:72px 1fr;gap:1.5rem;padding:1.4rem 0;border-bottom:1px solid rgba(255,255,255,0.08)">
-          <div style="font-size:1rem;font-weight:800;color:var(--lava);line-height:1.3;padding-top:2px">1814</div>
-          <div><div style="font-weight:600;margin-bottom:0.2rem;font-size:0.95rem">The great Mayon eruption</div><div style="font-size:0.84rem;color:rgba(255,255,255,0.48)">Mayon buries the Cagsawa church under lava and ash, killing over 1,200 people.</div></div>
+
+        <!-- Culture & Heritage -->
+        <div class="hl-card">
+          <img src="images/crafts/abaca-craft.jpg" alt="Culture & Heritage" loading="lazy" onerror="this.style.display='none'">
+          <div class="hl-card-gradient"></div>
+          <!--<div class="hl-card-icon">🏛️</div>-->
+          <div class="hl-card-body">
+            <div class="hl-card-title">Culture & Heritage</div>
+            <div class="hl-card-desc">
+              From the Ibalong Monument to the eskinitas of Brgy. 25, Legazpi's streets carry centuries of Bicolano history - 
+              lived-in, celebrated, and proudly passed down.
+            </div>
+          </div>
         </div>
-        <div style="display:grid;grid-template-columns:72px 1fr;gap:1.5rem;padding:1.4rem 0;border-bottom:1px solid rgba(255,255,255,0.08)">
-          <div style="font-size:1rem;font-weight:800;color:var(--lava);line-height:1.3;padding-top:2px">1959</div>
-          <div><div style="font-weight:600;margin-bottom:0.2rem;font-size:0.95rem">Legazpi becomes a chartered city</div><div style="font-size:0.84rem;color:rgba(255,255,255,0.48)">Legazpi grows into the regional center of Albay and the Bicol Region.</div></div>
+
+        <!-- Food & Cuisine -->
+        <div class="hl-card">
+          <img src="images/foods/foods.jpg" alt="Food & Cuisine" loading="lazy" onerror="this.style.display='none'">
+          <div class="hl-card-gradient"></div>
+          <!--<div class="hl-card-icon">🌶️</div>-->
+          <div class="hl-card-body">
+            <div class="hl-card-title">Food & Cuisine</div>
+            <div class="hl-card-desc">
+              Bicol Express, laing, gulay na natong, pili sweets - 
+              the food here is bold, coconut-rich, and unmistakably Bicolano. 
+              Every meal tells you exactly where you are.
+            </div>
+          </div>
         </div>
-        <div style="display:grid;grid-template-columns:72px 1fr;gap:1.5rem;padding:1.4rem 0;border-bottom:1px solid rgba(255,255,255,0.08)">
-          <div style="font-size:1rem;font-weight:800;color:var(--lava);line-height:1.3;padding-top:2px">1993</div>
-          <div><div style="font-weight:600;margin-bottom:0.2rem;font-size:0.95rem">Major Mayon eruption</div><div style="font-size:0.84rem;color:rgba(255,255,255,0.48)">Displaces thousands — a reminder of Mayon's living presence in Bicolano life.</div></div>
+
+        <!-- Resilience & Modern Progress -->
+        <div class="hl-card">
+          <img src="images/progress.jpg" alt="Resilience & Modern Progress" loading="lazy" onerror="this.style.display='none'">
+          <div class="hl-card-gradient"></div>
+          <!--<div class="hl-card-icon">🏙️</div>-->
+          <div class="hl-card-body">
+            <div class="hl-card-title">Resilience & Modern Progress</div>
+            <div class="hl-card-desc">
+              Shaped by typhoons and volcanic activity, Legazpi keeps rebuilding and moving forward - 
+              a waterfront boulevard, a growing city center, and a people who don't stop.
+            </div>
+          </div>
         </div>
-        <div style="display:grid;grid-template-columns:72px 1fr;gap:1.5rem;padding:1.4rem 0">
-          <div style="font-size:1rem;font-weight:800;color:var(--lava);line-height:1.3;padding-top:2px">Today</div>
-          <div><div style="font-weight:600;margin-bottom:0.2rem;font-size:0.95rem">A city proud of its roots</div><div style="font-size:0.84rem;color:rgba(255,255,255,0.48)">Legazpi City — growing, vibrant, and still watching the volcano.</div></div>
-        </div>
+
       </div>
     </div>
   </section>
 
 </main>
+
+<!-- Spot Modal Overlay -->
+<div id="spot-modal-overlay" class="spot-modal-overlay" role="dialog" aria-modal="true" aria-label="Spot details">
+  <div class="spot-modal"></div>
+</div>
 
 <footer>
   <div class="footer-inner">
